@@ -1,0 +1,24 @@
+.liking-box {
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.liked-icon {
+    color:#F3410E;
+    font-size:30px;
+}
+.unliked-icon {
+    color:#424242;
+    font-size:30px;
+}
+
+.liked-text {
+    color:#F3410E;
+    font-size:14px;
+}
+
+.unliked-text {
+    color:#424242;
+    font-size:14px;
+}

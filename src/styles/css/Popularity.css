@@ -1,0 +1,14 @@
+button {
+    color:white;
+    border:none;
+    margin: 5px;
+
+}
+
+button.love-it {
+    background-color:#4CAF50;
+}
+
+button.meh {
+    background-color: rgb(230, 68, 68);
+}

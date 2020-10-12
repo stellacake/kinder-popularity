@@ -1,0 +1,26 @@
+.kinder-card {
+    background-color:#ff9;
+    box-shadow:0 3px 5px -3px #000;
+    width:450px;
+    height:250px;
+    margin:20px;
+    padding:10px;
+    transform:rotate(3deg);
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.kinder-pic img {
+    width:200px;
+    height: auto;
+    vertical-align: center;
+}
+
+.kinder-content {
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: left;
+}
