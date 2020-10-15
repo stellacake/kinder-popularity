@@ -10,7 +10,7 @@ class Favorite extends React.Component {
     }
     render() {
         return (
-            <div className="liking-box" onClick={event => {
+            <div className="liking-box" onClick={() => {
                 const newLiked = !this.state.liked;
                 this.setState({ liked: newLiked });
             }}>

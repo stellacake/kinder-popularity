@@ -1,5 +1,6 @@
 import React from 'react';
 import TreatCard from './TreatCard';
+import '../styles/css/TreatList.css';
 
 const TreatList = [
     {
@@ -62,7 +63,7 @@ const TreatList = [
 
 const Treats = () => {
     return (
-            <div>
+            <div className="TreatList">
                 {TreatList.map(treat => <TreatCard picture={treat.picture}  name={treat.name} quote={treat.quote} liked={treat.liked}/>)}
             </div>
     )

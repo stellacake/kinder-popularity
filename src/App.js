@@ -6,10 +6,8 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to the Kinder playground!</h1>
-      <div className="cards">
       <Treats />
       </div>
-    </div>
   );
 }
 

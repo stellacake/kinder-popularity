@@ -1,5 +1,5 @@
-.cards{
-  width:500px;
-  height:300px;
+.App{
   display:flex;
+  flex-direction: column;
+  width: 100vh;
 }
